@@ -80,6 +80,8 @@ It is important that you never commit to master
    <code>
    git push <i>branch-name</i>
    </code>
-
-5. **Make a pull request.** 
+5. **Make rebase from base branch**
+6. **Make a pull request.**
+7. **Make rebase from base branch**
+7. **Merge the feature branch in the base branch** 
 
