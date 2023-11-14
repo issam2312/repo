@@ -83,28 +83,3 @@ It is important that you never commit to master
 
 5. **Make a pull request.** 
 
-
-## Important points
-
-The important things to remember from this document are
-
-1. You only need to clone and fork once per repository.
-
-2. Always clone from the main repository and add your fork as a remote.
-
-3. Never commit to master. Create a branch and commit to it.
-
-4. Use `git status` often to check what branch you are on and see if you have
-   any uncommitted changes.
-
-5. Be descriptive in your branch names, commit messages, and pull request
-   title and descriptions.
-
-6. Once you have a pull request for a branch, you can push additional changes
-   to the same branch and they will be added to the pull request
-   automatically. You should never create a new pull request for the same
-   branch.
-
-7. Comment on the pull request when you want people to know that you have
-   pushed new changes. Although GitHub does notify people of commit pushes,
-   people are more likely notice your changes if you leave a comment.
