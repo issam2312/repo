@@ -1,7 +1,7 @@
 # Git workflow
 
 This document describes the git workflow that should be used when contributing
-to Tosca Za project. It assumes a very basic understanding of
+to Tosca or Za project. It assumes a very basic understanding of
 git (commits, branches, etc.) using the command line.
 
 ## Cloning the repository
@@ -12,12 +12,7 @@ git (commits, branches, etc.) using the command line.
    <code>git clone <i>clone-url</i></code>
 
    at the terminal. Replace *`clone-url`* with the url that has been copied to
-   your clipboard. For sympy/sympy, it will be
-   `git@github.com:sympy/sympy.git`. If you have not set up your ssh keys with
-   GitHub, use the https url by first clicking the `https` button <font
-   color="blue">③</font>.
-
-   ![clone.png](clone.png)
+   your clipboard.
 
 ## Making changes
 
@@ -27,9 +22,7 @@ on. I recommend putting the git branch in your command prompt, so that you
 will always know what branch you are on. See
 [this guide](http://stackoverflow.com/a/24716445/161801) on how to do this.
 
-It is important that you never commit to master because master will be the
-branch that you pull upstream changes from (e.g., changes from
-sympy/sympy).
+It is important that you never commit to master 
 
 1. **Update master.** Before you make any changes, first checkout master
 
@@ -85,11 +78,8 @@ sympy/sympy).
    running
 
    <code>
-   git push <i>your-github-username</i> <i>branch-name</i>
+   git push <i>branch-name</i>
    </code>
-
-   (replace *`your-github-username`* with your GitHub username and
-   *`branch-name`* with the name of the branch).
 
 5. **Make a pull request.** 
 
