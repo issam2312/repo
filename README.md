@@ -84,11 +84,16 @@ It is important that you never commit to master
    <pre><code>
    git rebase base_name main
    </code></pre>
+   
    Assume the following history exists and the current branch is "fix":
+    <pre><code>
         C--D--E      fix
        /
    A--B--F--G        main
+    </code></pre>
+    
 From this point, the result of either of the following commands:
+    <pre><code>
    git rebase main fix 
    git rebase main (when already on the fix branch)
 
@@ -98,7 +103,7 @@ From this point, the result of either of the following commands:
              /
    A--B--F--G               main
 
-   
+      </code></pre>
    
    
 7. **Make a pull request.**
