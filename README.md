@@ -112,4 +112,19 @@ From this point, the result of either of the following commands:
    </code></pre> 
    
 9. **Merge the feature branch in the base branch** 
-
+Assume the following history exists and the current branch is "main":
+<pre><code>
+      C--D--E      fix
+    /               
+A--B--F--G--k      main
+</code></pre>
+Then
+<pre><code>
+git merge fix   
+</code></pre>
+ will replay the changes made on the fix branch since it diverged from main (i.e., B) until its current commit (E) on top of main, and record the result in a new commit
+<pre><code>
+      C--D--E      fix
+    /        \        
+A--B--F--G--k--L   main
+</code></pre>
