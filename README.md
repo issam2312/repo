@@ -107,5 +107,9 @@ From this point, the result of either of the following commands:
    
 7. **Make a pull request.**
 8. **Make rebase from base branch**
-7. **Merge the feature branch in the base branch** 
+   <pre><code>
+   git rebase main branch_name
+   </code></pre> 
+   
+9. **Merge the feature branch in the base branch** 
 
