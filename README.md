@@ -96,14 +96,14 @@ From this point, the result of either of the following commands:
     <pre><code>
    git rebase main fix 
    git rebase main (when already on the fix branch)
-
+   </code></pre>
    would be:
-
+  <pre><code>
               K--L--M      fix
              /
    A--B--F--G               main
 
-      </code></pre>
+    </code></pre>   
    
    
 7. **Make a pull request.**
