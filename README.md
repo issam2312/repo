@@ -1,4 +1,4 @@
-A# Git workflow
+# Git workflow
 
 This document describes the git workflow that should be used when contributing
 to Tosca or Za project. It assumes a very basic understanding of
