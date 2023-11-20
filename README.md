@@ -81,7 +81,9 @@ It is important that you never commit to master
    git push <i>branch-name</i>
    </code>
 5. **Make rebase from base branch**
+   <pre><code>
    git rebase base_name main
+   </code></pre>
 7. **Make a pull request.**
 8. **Make rebase from base branch**
 7. **Merge the feature branch in the base branch** 
