@@ -1,4 +1,4 @@
-# Git workflow
+A# Git workflow
 
 This document describes the git workflow that should be used when contributing
 to Tosca or Za project. It assumes a very basic understanding of
@@ -84,6 +84,23 @@ It is important that you never commit to master
    <pre><code>
    git rebase base_name main
    </code></pre>
+   Assume the following history exists and the current branch is "fix":
+        C--D--E      fix
+       /
+   A--B--F--G        main
+From this point, the result of either of the following commands:
+   git rebase main fix 
+   git rebase main (when already on the fix branch)
+
+   would be:
+
+              K--L--M      fix
+             /
+   A--B--F--G               main
+
+   
+   
+   
 7. **Make a pull request.**
 8. **Make rebase from base branch**
 7. **Merge the feature branch in the base branch** 
