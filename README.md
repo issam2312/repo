@@ -17,7 +17,7 @@ It assumes a very basic understanding of git (commits, branches, etc.) using the
 ## Making changes
 
 Before you make any changes, you should make a branch. Remember to **never
-commit to master**. The command `git status` will tell you what branch you are
+commit to the main branch**. The command `git status` will tell you what branch you are
 on. I recommend putting the git branch in your command prompt, so that you
 will always know what branch you are on. See
 [this guide](http://stackoverflow.com/a/24716445/161801) on how to do this.
