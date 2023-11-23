@@ -82,7 +82,7 @@ It is important that you never commit to master
    </code>
 5. **Make rebase from base branch**
    <pre><code>
-   git rebase base_name main
+   git rebase branch_name main
    </code></pre>
    
    Assume the following history exists and the current branch is "fix":
@@ -128,4 +128,3 @@ git merge fix
     /        \        
 A--B--F--G--k--L   main
 </code></pre>
-change 4
