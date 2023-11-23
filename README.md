@@ -1,7 +1,7 @@
 # Git workflow
 
 This document describes the git workflow that should be used when contributing
-to Tosca or Za project. 
+to Tosca/ZA projects. 
 It assumes a very basic understanding of git (commits, branches, etc.) using the command line.
 
 ## Cloning the repository
